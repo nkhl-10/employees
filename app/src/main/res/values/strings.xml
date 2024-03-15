@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">teksun</string>
+    <string name="hi">hi</string>
+    <string name="sorry_data_not_found">Sorry, Data Not Found!</string>
+</resources>

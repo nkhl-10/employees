@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Add_Details"
+    android:gravity="center"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/nameE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginBottom="10dp"
+        android:inputType="text"
+        android:hint="Enter Name"  />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3">
+
+       <Button
+           android:id="@+id/plus"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="+"
+           android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/ageE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginBottom="10dp"
+        android:inputType="number"
+        android:layout_weight="3"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:hint="Enter Age"
+        android:text="18"
+        android:gravity="center"/>
+
+        <Button
+            android:id="@+id/minus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+
+
+    <Spinner
+        android:id="@+id/addStates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/cityE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginBottom="10dp"
+        android:inputType="text"
+        android:hint="Enter City"/>
+
+    <EditText
+        android:id="@+id/addressE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:hint="Select Address"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Save Data" />
+</LinearLayout>
